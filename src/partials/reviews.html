@@ -1,0 +1,193 @@
+<!--Reviews-->
+<section class="reviews-section">
+  <div class="reviews-container">
+    <h2 class="reviews-title"><span class="reviews-chocolate">Chocolate</span> is loved</h2>
+
+    <div class="reviews-list">
+      <div class="reviews-list-item">
+        <div class="reviews-list-box">
+          <img
+            src="./images/Review1.png"
+            alt="woman with ginger hair"
+            width="80"
+            height="80"
+            class="reviews-reviewer-photo"
+            srcset="./images/Review1.png 1x, ./images/Review1@x2.png 2x"
+          />
+          <h4 class="reviews-list-title">Victoria Dobrzhanska</h4>
+          <p class="reviews-review">
+            I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin
+            layer chocolate.
+          </p>
+        </div>
+      </div>
+      <div class="reviews-list-item">
+        <div class="reviews-list-box">
+          <img
+            src="./images/Review2.png"
+            alt="woman with ginger hair"
+            width="80"
+            height="80"
+            class="reviews-reviewer-photo"
+            srcset="./images/Review2.png 1x, ./images/Review2@x2.png 2x"
+          />
+          <h4 class="reviews-list-title">Nazar Babenko</h4>
+          <p class="reviews-review">
+            This chocolate confection is a delight! A delight! The wafer is light and crisp, the
+            hazelnut cream is smooth, and the chocolate is good.
+          </p>
+        </div>
+      </div>
+      <div class="reviews-list-item">
+        <div class="reviews-list-box">
+          <img
+            src="./images/Review3.png"
+            alt="woman with ginger hair"
+            width="80"
+            height="80"
+            class="reviews-reviewer-photo"
+            srcset="./images/Review3.png 1x, ./images/Review3@x2.png 2x"
+          />
+          <h4 class="reviews-list-title">Olena Kampusch</h4>
+          <p class="reviews-review">
+            Chocolate is a family favourite treat. Love the delicious smooth chocolate and the
+            creaminess inside. The wafer is soft but crunchy.
+          </p>
+        </div>
+      </div>
+      <div class="reviews-list-item">
+        <div class="reviews-list-box">
+          <img
+            src="./images/Review4.png"
+            alt="woman with ginger hair"
+            width="80"
+            height="80"
+            class="reviews-reviewer-photo"
+            srcset="./images/Review4.png 1x, ./images/Review4@x2.png 2x"
+          />
+          <h4 class="reviews-list-title">Olena Kampusch</h4>
+          <p class="reviews-review">
+            Chocolate is a family favourite treat. Love the delicious smooth chocolate and the
+            creaminess inside. The wafer is soft but crunchy.
+          </p>
+        </div>
+      </div>
+      <div class="reviews-list-item">
+        <div class="reviews-list-box">
+          <img
+            src="./images/Review5.png"
+            alt="woman with ginger hair"
+            width="80"
+            height="80"
+            class="reviews-reviewer-photo"
+            srcset="./images/Review5.png 1x, ./images/Review5@x2.png 2x"
+          />
+          <h4 class="reviews-list-title">Olena Kampusch</h4>
+          <p class="reviews-review">
+            Chocolate is a family favourite treat. Love the delicious smooth chocolate and the
+            creaminess inside. The wafer is soft but crunchy.
+          </p>
+        </div>
+      </div>
+      <div class="reviews-list-item">
+        <div class="reviews-list-box">
+          <img
+            src="./images/Review6.png"
+            alt="woman with ginger hair"
+            width="80"
+            height="80"
+            class="reviews-reviewer-photo"
+            srcset="./images/Review6.png 1x, ./images/Review6@x2.png 2x"
+          />
+          <h4 class="reviews-list-title">Olena Kampusch</h4>
+          <p class="reviews-review">
+            Chocolate is a family favourite treat. Love the delicious smooth chocolate and the
+            creaminess inside. The wafer is soft but crunchy.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <ul class="reviews-slider">
+      <li class="reviews-slider-item"></li>
+      <li class="reviews-slider-item"></li>
+      <li class="reviews-slider-item"></li>
+      <li class="reviews-slider-item"></li>
+      <li class="reviews-slider-item"></li>
+      <li class="reviews-slider-item"></li>
+    </ul>
+    <button class="reviews-button" type="button" data-modal-open>Leave a review</button>
+  </div>
+</section>
+
+<!--Modal Window-->
+
+<div class="backdrop is-hidden" data-modal>
+  <div class="reviews-modal-window">
+    <button class="reviews-close-button" type="button" data-modal-close>
+      <svg class="reviews-close-button-svg" width="24" height="24">
+        <use href=""></use>
+      </svg>
+    </button>
+    <p class="reviews-form-message">
+      Leave a review about
+      <span class="reviews-chocolate"> our chocolate</span>
+    </p>
+    <form class="reviews-form">
+      <div class="reviews-form-item">
+        <label class="reviews-form-label" for="user-name"> Name </label>
+        <div class="reviews-form-input-box">
+          <input
+            class="reviews-form-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Name"
+            required
+          />
+        </div>
+      </div>
+
+      <div class="reviews-form-item">
+        <label class="reviews-form-label" for="form-email"> Email </label>
+        <div class="reviews-form-input-box">
+          <input
+            class="reviews-form-input"
+            type="email"
+            name="contact-form-email"
+            id="contact-form-email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+      </div>
+      <div class="reviews-form-item">
+        <label class="reviews-form-label" for="form-phone"> Phone number </label>
+        <div class="reviews-form-input-box">
+          <svg class="reviews-form-icon"><use></use></svg>
+          <input
+            class="reviews-form-input"
+            type="tel"
+            name="contact-form-phone"
+            id="contact-form-phone"
+            placeholder="Phone number"
+            required
+          />
+        </div>
+      </div>
+      <div class="reviews-form-item">
+        <label class="reviews-form-label" for="user-comment"> Comment </label>
+        <textarea
+          class="reviews-form-textarea"
+          id="user-comment"
+          name="user-comment"
+          rows="4"
+          placeholder="Enter text"
+          required
+        ></textarea>
+      </div>
+      <button class="reviews-send-button" type="submit">Send</button>
+    </form>
+  </div>
+</div>
+<script src="./js/modal.js"></script>
