@@ -1,0 +1,204 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+}
+section {
+  width: 100vw;
+}
+.hero {
+  display: flex;
+}
+.adv-circle {
+  width: 64px;
+  height: 64px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 356px;
+}
+.container {
+  display: flex;
+}
+.hero-container {
+  margin: 14px 20px 71px 20px;
+  background-color: #1e1823;
+  border-radius: 30px;
+  height: 621px;
+  width: calc(100vw - 40px);
+  border-radius: 10px;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.hero-container2 {
+  flex-direction: column;
+  gap: 32px;
+}
+.hero-container-paragraf {
+  max-width: 295px;
+  max-height: 72px;
+}
+.hero-paragraf {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.6px;
+}
+.hero-button-container {
+  display: flex;
+  gap: 14px;
+}
+.hero-buy-button {
+  padding: 12px 28px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 14px;
+  border-radius: 100px;
+  background: #fd9222;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+  width: auto;
+  text-wrap: nowrap;
+}
+.hero-buy-button:hover,
+.hero-buy-button:focus {
+  color: #fd9222;
+  background-color: #fcf1e0;
+}
+.button-transition {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-transition {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-him-button {
+  border-radius: 100px;
+  border: 1px solid #fff;
+  display: inline-flex;
+  padding: 12px 28px;
+  align-items: flex-start;
+  gap: 14px;
+  color: #fff;
+  background-color: transparent;
+  width: auto;
+}
+.hero-him-button:hover,
+.hero-him-button:focus {
+  color: #fd9222;
+  border-color: #fd9222;
+}
+.hero-scroll-icon {
+  position: relative;
+  left: 50px;
+}
+.adv-paragraf {
+  color: rgba(255, 255, 255, 0.7);
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+.hero-scroll-container {
+}
+.hero-scroll-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+.hero-scroll-text {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: -0.36px;
+  margin-right: 12px;
+}
+.hero-container2 {
+  margin: 0 20px 21px;
+}
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.hero-scroll-container:hover .hero-scroll-text,
+.hero-scroll-container:focus .hero-scroll-text {
+  color: #fd9222;
+  fill: #fd9222;
+}
+.hero-scroll-container:hover .hero-ellipse,
+.hero-scroll-container:focus .hero-ellipse {
+  fill: #fd9222;
+}
+.hero-scroll-container:hover .hero-scroll-icon,
+.hero-scroll-container:focus .hero-scroll-icon {
+  fill: white;
+}
+@media screen and (min-width: 768px) {
+  .hero-container {
+    height: 890px;
+    margin: 24px 32px 50px 32px;
+    width: calc(100vw - 80px);
+  }
+  .hero-container-paragraf {
+    max-width: 484px;
+    height: auto;
+  }
+  .hero-container2 {
+    margin: 671px 40px 40px;
+    width: calc(100vw - 160px);
+  }
+  .hero-buttons {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .hero-scroll-container {
+    display: flex;
+    align-items: center;
+  }
+  .hero-paragraf {
+    font-size: 28px;
+    line-height: 34px; /* 121.429% */
+    letter-spacing: -0.84px;
+    font-weight: 500;
+  }
+  .hero-buy-button {
+    padding: 14px 40px;
+    width: auto;
+  }
+  .hero-him-button {
+    padding: 14px 40px;
+    width: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-container {
+    height: 600px;
+    margin: 32px 32px 71px 32px;
+    width: calc(100vw - 64px);
+  }
+}
