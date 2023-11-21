@@ -1,0 +1,39 @@
+
+header {
+    margin-top: 20px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-brand {
+    display: flex;
+    align-items: center;
+    width: 325px;
+    flex-wrap: wrap;
+  }
+  
+  .header-nav-desktop {
+    display: none;
+  }
+  
+  .header-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  .header-nav .header-title {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .header-nav-button {
+    display: flex;
+    justify-content: end;
+  }
+  .header-nav-desktop ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
