@@ -171,11 +171,8 @@
     margin-left: auto;
     margin-right: auto;
   }
-  /*-------------------------------------------------------------------desktop*/
-  
-  c
-  
-  /*------------------------------------------------------------------------menu hamburger*/
+  /*-------------------------------------------------------------------desktop*/  
+  /*-------------------------------------------------menu hamburger*/
   .menu-wrapper {
     overflow-y: auto;
     position: fixed;
@@ -220,5 +217,4 @@
   .hamburger-social-links {
     display: flex;
     justify-content: flex-end;
-  }
-  
+  }  
