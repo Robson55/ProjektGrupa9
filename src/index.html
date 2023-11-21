@@ -12,9 +12,12 @@
     />
     <link rel="stylesheet" href="./sass/main.css">
   </head>
+  
   <body>
-    <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
+    
     <include src="./partials/header.html"></include>
+
+  <main>
     <include src="./partials/hero.html"></include>
     <include src="./partials/advanteges.html"></include>
     <include src="./partials/unique.html"></include>
@@ -23,9 +26,12 @@
     <include src="./partials/sellers.html"></include>
     <include src="./partials/reviews.html"></include>
     <include src="./partials/subscribe.html"></include>
-    <include src="./partials/footer.html"></include>
+ </main>
 
-    <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony SAAS plik. -->
+  <footer>
+    <include src="./partials/footer.html"></include>
+  </footer>
+    
     <script src="./index.js" type="module"></script>
   </body>
 </html>
